@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, Overflow Task</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+        aside {
+            width: 30%;
+            float: left;
+            line-height: 50px;
+            margin: 20px;
+            padding: 30px 30px;
+            background-color: aquamarine;
+            border: 2px solid;
+
+        }
+        aside h2 {
+            color: brown;
+            text-align: center;
+            text-decoration: underline;
+        }
+        li {
+            list-style: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        li a {
+            text-decoration: none;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        .content {
+            width: 700px;
+            height: 450px;
+            overflow-y: scroll;
+            border: 2px solid;
+            padding: 12px 14px;
+        }
+        .content div:last-child{color: green;}
+        .content div:nth-child(2){color: purple;}
+        #ch3 {color: brown;}
+        .content h2 {color: blue;}
+        ul a:link {color: blue;}
+        ul a:visited {color: slateblue;}
+        ul a:hover {color: black; text-decoration: underline;}
+        ul a:active {text-decoration: underline; font-size: larger; color: red;}
+        .content:hover{background-color: whitesmoke;}
+    </style>
+</head>
+<body>
+    <h1>Text Book</h1>
+    <hr>
+    <aside>
+        <h2>Index</h2>
+        <ul>
+            <li class="active"><a href="#ch1">Chapter-1</a></li>
+            <li class="active"><a href="#ch2">Chapter-2</a></li>
+            <li class="active"><a href="#ch3">Chapter-3</a></li>
+            <li class="active"><a href="#ch4">Chapter-4</a></li>
+            <li class="active"><a href="#ch5">Chapter-5</a></li>
+        </ul>
+    </aside>
+    <div class="content">
+    <div id="ch1">
+        <h2>Chapter-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis reprehenderit consequatur ratione dicta explicabo consectetur.<br><br> Laboriosam magni sequi quam repudiandae sit dolorum non, consectetur id soluta eum recusandae fuga?<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio suscipit nesciunt non neque harum saepe magnam reprehenderit obcaecati odio! Molestias, error.<br> Omnis cupiditate voluptatem error sit maiores, minus consequatur.<br><br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed itaque adipisci explicabo exercitationem dolorum beatae quam alias laudantium nulla, magni ipsa voluptatibus tempora, vitae atque, esse quaerat. Saepe, minima.<br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora maiores, perspiciatis accusamus ipsum et quo ullam, consequatur fuga unde excepturi nesciunt labore omnis vero vitae amet in inventore fugiat. Voluptas.<br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br> Pariatur, quis dicta, consequuntur, sint beatae corrupti similique consectetur molestiae soluta incidunt magnam.<br> Delectus unde ad quos sed est. Asperiores, placeat vitae.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore enim delectus, molestiae optio assumenda at error distinctio officiis neque! Cum fugiat labore blanditiis hic quisquam consequatur ducimus corporis odit!</p></div>
+        
+        <div id="ch2">
+            <h2>Chapter-2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis reprehenderit consequatur ratione dicta explicabo consectetur.<br><br> Laboriosam magni sequi quam repudiandae sit dolorum non, consectetur id soluta eum recusandae fuga?<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio suscipit nesciunt non neque harum saepe magnam reprehenderit obcaecati odio! Molestias, error.<br> Omnis cupiditate voluptatem error sit maiores, minus consequatur.<br><br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed itaque adipisci explicabo exercitationem dolorum beatae quam alias laudantium nulla, magni ipsa voluptatibus tempora, vitae atque, esse quaerat. Saepe, minima.<br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora maiores, perspiciatis accusamus ipsum et quo ullam, consequatur fuga unde excepturi nesciunt labore omnis vero vitae amet in inventore fugiat. Voluptas.<br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br> Pariatur, quis dicta, consequuntur, sint beatae corrupti similique consectetur molestiae soluta incidunt magnam.<br> Delectus unde ad quos sed est. Asperiores, placeat vitae.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore enim delectus, molestiae optio assumenda at error distinctio officiis neque! Cum fugiat labore blanditiis hic quisquam consequatur ducimus corporis odit!</p></div>
+
+            <div id="ch3">
+                <h2>Chapter-3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis reprehenderit consequatur ratione dicta explicabo consectetur.<br><br> Laboriosam magni sequi quam repudiandae sit dolorum non, consectetur id soluta eum recusandae fuga?<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio suscipit nesciunt non neque harum saepe magnam reprehenderit obcaecati odio! Molestias, error.<br> Omnis cupiditate voluptatem error sit maiores, minus consequatur.<br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed itaque adipisci explicabo exercitationem dolorum beatae quam alias laudantium nulla, magni ipsa voluptatibus tempora, vitae atque, esse quaerat. Saepe, minima.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora maiores, perspiciatis accusamus ipsum et quo ullam, consequatur fuga unde excepturi nesciunt labore omnis vero vitae amet in inventore fugiat. Voluptas.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br> Pariatur, quis dicta, consequuntur, sint beatae corrupti similique consectetur molestiae soluta incidunt magnam.<br> Delectus unde ad quos sed est. Asperiores, placeat vitae.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore enim delectus, molestiae optio assumenda at error distinctio officiis neque! Cum fugiat labore blanditiis hic quisquam consequatur ducimus corporis odit!</p></div>    
+                <div id="ch4">
+                    <h2>Chapter-4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis reprehenderit consequatur ratione dicta explicabo consectetur.<br><br> Laboriosam magni sequi quam repudiandae sit dolorum non, consectetur id soluta eum recusandae fuga?<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio suscipit nesciunt non neque harum saepe magnam reprehenderit obcaecati odio! Molestias, error.<br> Omnis cupiditate voluptatem error sit maiores, minus consequatur.<br><br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed itaque adipisci explicabo exercitationem dolorum beatae quam alias laudantium nulla, magni ipsa voluptatibus tempora, vitae atque, esse quaerat. Saepe, minima.<br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora maiores, perspiciatis accusamus ipsum et quo ullam, consequatur fuga unde excepturi nesciunt labore omnis vero vitae amet in inventore fugiat. Voluptas.<br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br> Pariatur, quis dicta, consequuntur, sint beatae corrupti similique consectetur molestiae soluta incidunt magnam.<br> Delectus unde ad quos sed est. Asperiores, placeat vitae.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore enim delectus, molestiae optio assumenda at error distinctio officiis neque! Cum fugiat labore blanditiis hic quisquam consequatur ducimus corporis odit!</p></div>
+                    <div id="ch5">
+                        <h2>Chapter-5</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis reprehenderit consequatur ratione dicta explicabo consectetur.<br><br> Laboriosam magni sequi quam repudiandae sit dolorum non, consectetur id soluta eum recusandae fuga?<br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio suscipit nesciunt non neque harum saepe magnam reprehenderit obcaecati odio! Molestias, error.<br> Omnis cupiditate voluptatem error sit maiores, minus consequatur.<br><br>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed itaque adipisci explicabo exercitationem dolorum beatae quam alias laudantium nulla, magni ipsa voluptatibus tempora, vitae atque, esse quaerat. Saepe, minima.<br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempora maiores, perspiciatis accusamus ipsum et quo ullam, consequatur fuga unde excepturi nesciunt labore omnis vero vitae amet in inventore fugiat. Voluptas.<br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br> Pariatur, quis dicta, consequuntur, sint beatae corrupti similique consectetur molestiae soluta incidunt magnam.<br> Delectus unde ad quos sed est. Asperiores, placeat vitae.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolore enim delectus, molestiae optio assumenda at error distinctio officiis neque! Cum fugiat labore blanditiis hic quisquam consequatur ducimus corporis odit!</p></div>
+    </div>
+</body>
+</html>
